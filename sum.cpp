@@ -1,5 +1,10 @@
 #include "sum.h"
 
 int sum(int n){
-    return n*(n+1)/2;
+    int i=1;
+    int sum=0;
+    for(;i<=n;i++){
+        sum+=i;
+    }
+    return sum;
 }
